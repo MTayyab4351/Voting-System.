@@ -1,2 +1,13 @@
-# Voting-System.
-A decentralized voting system built with Solidity, designed to ensure secure, transparent, and tamper-proof voting. The smart contract allows admins to register and approve candidates, while voters can register and cast their votes securely on the blockchain. Deployed on the Sepolia network using Hardhat for testing and deployment.
+# Sample Hardhat Project
+
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+
+Try running some of the following tasks:
+
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat ignition deploy ./ignition/modules/Lock.js
+```
